@@ -1,0 +1,44 @@
+body{
+			margin: 0;
+		}
+section{
+			padding: 50px;
+			height: 50vh;
+			display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		background-position: center !important;
+    		background-size: cover !important;
+}		
+		.Goodboy{
+			background: #00458073;
+    		background-image: url(../images/goodboy.jpg);
+    		background-blend-mode: color-burn;
+		}
+		.badboy{
+			background: #ffac26cc;
+    		background-image: url(../images/badboy.jpg);
+    		background-blend-mode: darken;
+		}
+		.Goodgirl{
+			background: #e91e429c;
+   			background-image: url(../images/goodgirl.jpg);
+    		background-blend-mode: overlay;
+
+		}
+		.badgirl{
+			background: lightblue;
+    		background-image: url(../images/badgirl.jpg);
+    		background-blend-mode: soft-light;
+		}
+		h1{
+			font-size: 60px;
+			color: whitesmoke;
+			margin: 0;
+			font-family: 'Fredoka One', cursive;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+		}
+		strong{
+			font-family: 'Satisfy', cursive;
+		}
